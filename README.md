@@ -23,3 +23,11 @@ Por ejemplo, si queremos convertir el número 10 de base 10 a base 2, el método
 10. El resultado final es "1010", que es la representación en base 2 del número 10.
 
 ### Descripcion de la Solucion Punto #2
+
+la clase Tree que representa un árbol de peso. La clase Tree tiene una clase anidada llamada TreeNode que representa los nodos del árbol. TreeNode tiene propiedades para el valor, el peso, el peso promedio y la altura del nodo, así como referencias a sus hijos izquierdo y derecho.
+
+La clase Tree tiene una propiedad privada llamada root que representa la raíz del árbol. La clase Tree tiene un método público llamado Add que agrega un nodo al árbol. El método Add inserta el nodo en el lugar adecuado en el árbol para mantener el orden del árbol.
+
+La clase Tree también tiene dos métodos públicos llamados CalculateHeights y CalculateAverageWeights que recorren el árbol en profundidad y calculan la altura y el peso promedio de cada nodo, respectivamente. Los métodos CalculateHeights y CalculateAverageWeights utilizan métodos privados llamados CalculateTotalWeight y CountNodes para calcular el peso total del árbol y el número de nodos del árbol, respectivamente.
+
+La clase Tree también tiene un método privado llamado PrintPreorder que imprime el árbol en una tabla
