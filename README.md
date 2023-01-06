@@ -1,5 +1,8 @@
 # Prueba tecnica de Siesa 2022
 
+------------------------------------
+### Lenguaje usado C# se uso el .NET FRAMEWORK 4.5
+------------------------------------
 ### Descripcion de la Solucion Punto #1
 
 El metodo ConvertToBase2 es una función que convierte un número de base 10 a base 2. Esto se logra mediante un ciclo while que itera mientras el número sea mayor que cero. En cada iteración, se obtiene el residuo de la división del número por 2 y se concatena al resultado final. Luego, se divide el número entero por 2 y se actualiza su valor.
@@ -19,4 +22,4 @@ Por ejemplo, si queremos convertir el número 10 de base 10 a base 2, el método
 9. La variable number es igual a 0, entonces el ciclo termina.
 10. El resultado final es "1010", que es la representación en base 2 del número 10.
 
-### .NET FRAMEWORK 4.5
+### Descripcion de la Solucion Punto #2
